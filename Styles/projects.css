@@ -1,0 +1,36 @@
+.cards li {
+  margin: 10px;
+  padding: 1em;
+  background: #d1dbbd;
+  display: block;
+  text-decoration: none;
+  width: 17em;
+  height: 25em;
+  float: left;
+  transition: 0.2s linear;
+}
+
+.cards li:hover {
+  background-color: #abc2b6;
+  box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards li h3 {
+  height: 50px;
+}
+
+.cards li img {
+  width: 100%;
+  height: 9em;
+  object-fit: cover;
+}
+
+.desc {
+  height: 7em;
+}
+
+.cards li a {
+  text-decoration: none;
+  text-align: right;
+  float: right;
+}
